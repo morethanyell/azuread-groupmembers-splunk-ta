@@ -34,7 +34,7 @@ Using the Splunk TA for Azure, it can be very resource-intensive (ingest, storag
    - Specify your index
    - Under `Group Display Name Keyword`, give it the search keyword that will match Groups' `displayName`
       - For example, if you have heaps of groups that are named "*SNOW USERS*", such as "LATAM-SNOW-USERS", "EMEA-SNOW-USERS", "APAC-SNOW-USERS", enter in the textfield the value _SNOW USERS_
-"   - Enter the Tenant ID
+   - Enter the Tenant ID
 
 ## Support
 If you want to support me, my paypal is daniel.l.astillero@gmail.com
