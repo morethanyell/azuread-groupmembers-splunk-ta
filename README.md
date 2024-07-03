@@ -30,7 +30,7 @@ Using the Splunk TA for Azure, it can be very resource-intensive (ingest, storag
 - Under Configuration, enter the Client ID under username and Client Secret in the password
 - Under Input, 
    - Give it a unique name that describe your use case
-   - For interval, I recommend doing this very infrequently like "once per day" or 86400
+   - For interval, I recommend doing this very infrequently, like "once per day" or 86400
    - Specify your index
    - Under `Group Display Name Keyword`, give it the search keyword that will match Groups' `displayName`
       - For example, if you have heaps of groups that are named "*SNOW USERS*", such as "LATAM-SNOW-USERS", "EMEA-SNOW-USERS", "APAC-SNOW-USERS", enter in the textfield the value _SNOW USERS_
