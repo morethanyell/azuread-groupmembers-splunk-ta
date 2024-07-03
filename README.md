@@ -1,7 +1,5 @@
 # Azure Group Member Insight Splunk TA
-Efficiently collects Azure AD users who are members of groups that match your specified `displayName`
 
-## Overview
 This Splunk TA uses the `GET /groups/?$search="displayName:{keyword}"` parameter and loops through all the groups to get their members. The looping API call uses `GET /groups/{group_id}/members?$select=id,userPrincipalName,displayName,jobTitle,accountEnabled`. That means each event ingested into Splunk look something like:
 
 ```
